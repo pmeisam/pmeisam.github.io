@@ -1,14 +1,16 @@
-.clearfix:after {
+/* .clearfix:after {
 	visibility: hidden;
 	display: block;
 	content: " ";
 	clear: both;
 	height: 0;
 	font-size: 0;
-}
+} */
 body {
 	font-family: 'Quicksand', sans-serif;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 	}
 header {
 	color: white;
@@ -16,8 +18,13 @@ header {
 	background-size: cover;
 }
 main {
-	width: 800px;
-	margin: 100px auto;
+	margin-top: 150px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	/*flex-direction: row; */
+	/* align-items: center; */
+	height: 1000px;
 }
 .title {
 	width: 800px;
@@ -27,15 +34,24 @@ main {
 	float: left;
 }
 .samplePhoto {
-	width: 300px;
-	height: 400px;
-	margin-right: 100px;
-	border-radius: 40px;
+	width: 480px;
+	height: 350px;
 	float: left;
+	/* margin-right: 100px; */
+	border-radius: 40px;
 }
 nav {
-	float: right;
-	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	/* float: right; */
+	/* margin-top: 40px; */
+}
+p a{
+	color: black;
+	margin-left: -20px;
+
 }
 a {
 	color: white;
@@ -55,9 +71,9 @@ h3, h6 {
 h6 {
 	margin-bottom: 200px;
 }
-.intro {
+/* .intro {
 	clear: both;
-}
+} */
 .heading {
 	margin-top: 200px;
 	font-weight: 900;
@@ -91,7 +107,7 @@ footer {
 	background-color: #f04;
 	padding: 10px 0;
 	text-align: center;
-	clear: both;
+	/* clear: both; */
 }
 a img {
 	width: 25px;
@@ -99,4 +115,17 @@ a img {
 }
 p {
 	line-height: 30px;
+}
+section img{
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	margin-right: 40px;
+}
+section {
+	display: flex;
+	justify-content: center;
+	/* color: rgb(255,0,60); */
+	margin-bottom: 100px;
+	align-items: center;
 }
