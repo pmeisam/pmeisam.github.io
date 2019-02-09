@@ -17,8 +17,35 @@ $(document).ready(function(){
 		}, 800, function(){
 	 
 		  // Add hash (#) to URL when done scrolling (default click behavior)
-		  window.location.hash = hash;
+			window.location.hash = hash;
 		});
 	  } // End if
 	});
-  });
+	});
+	var titleArray = "Full-stack Web Developer."
+	var introArray = "Full-Stack developer, soccer fan and self-starter with a persistent drive to succeed. I am passionate about development as the vehicle for making positive social-change through teaching others the love of technology. I never give up, just like the Iranian soccer team.";
+	titleArray = titleArray.split("");
+function typeIntro(){
+	var time = 200;
+	for(var i = 0; i < titleArray.length;i++){
+		$('.heading').append(`<span id=${i}>${titleArray[i]}</span>`);
+		$(`#${i}`).fadeToggle(time);
+		$(`#${i}`).css('display',"inline");
+		time = time + 200;
+	}
+}
+function typeBio(){
+	var time = 1000;
+	for(var i = 0; i < introArray.length; i++){
+		$('.bio').append(`<span id=${i}a>${introArray[i]}</span>`);
+		$(`#${i}a`).toggle(time);
+		$(`#${i}a`).css('display',"inline");
+		time = time + 100;
+	}
+}
+	$(document).ready(function(){
+		typeIntro();
+		typeBio();
+	})
+	
+	
