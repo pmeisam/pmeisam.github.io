@@ -22,27 +22,27 @@ $(document).ready(function () {
 		} // End if
 	});
 });
-var titleArray = "Full-stack Web Developer."
-var introArray = "Full-Stack developer, soccer fan and self-starter with a persistent drive to succeed. I am passionate about development as the vehicle for making positive social-change through teaching others the love of technology. I never give up, just like the Iranian soccer team.";
-titleArray = titleArray.split("");
+var i = 0;
+var txt = "Full-Stack developer, soccer fan and self-starter with a persistent drive to succeed. I am passionate about development as the vehicle for making positive social-change through teaching others the love of technology. I never give up, just like the Iranian soccer team.";
+var speed = 30;
 function typeIntro() {
 	var time = 200;
-
-	for (var i = 0; i < titleArray.length; i++) {
-		$('.heading').append(`<span id=${i}>${titleArray[i]}</span>`);
-		$(`#${i}`).fadeIn(time);
-		$(`#${i}`).css('display', "inline");
-		time = time + 200;
+	if (i < txt.length) {
+		document.getElementById("demo").innerHTML += txt.charAt(i);
+		i++;
+		setTimeout(typeIntro, speed);
 	}
 }
 
+var i1 = 0;
+var txt1 = "Full-Stack Web Developer";
+var speed1 = 30;
 function typeBio() {
-	var time = 800;
-	for (var i = 0; i < introArray.length; i++) {
-		$('.bio').append(`<span id=${i}a>${introArray[i]}</span>`);
-		$(`#${i}a`).toggle(time);
-		$(`#${i}a`).css('display', "inline");
-		time = time + 100;
+	var time = 200;
+	if (i1 < txt1.length) {
+		document.getElementById("header").innerHTML += txt1.charAt(i1);
+		i1++;
+		setTimeout(typeBio, speed1);
 	}
 }
 $(document).ready(function () {
@@ -50,10 +50,10 @@ $(document).ready(function () {
 	typeBio();
 });
 
-window.onscroll = () =>{
+window.onscroll = () => {
 	const nav = document.querySelector('#branding');
-	if(this.scrollY <= 1000){
+	if (this.scrollY <= 870) {
 		nav.className = "brand";
-	}else nav.className = 'scroll';
+	} else nav.className = 'scroll';
 }
 

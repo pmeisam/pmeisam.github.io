@@ -3,6 +3,9 @@
 
 <head>
 	<title>Meisam Poorzand</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -13,46 +16,43 @@
 
 <body>
 	<header>
-		<div>
-			<div class="title">
-				<div id="branding" class="brand">
-					<div>
-						<h3>Meisam Poorzand</h3>
-						<h6>Full-stack web developer</h6>
-					</div>
-					<nav>
-						<a class="headerlinks" href="http://www.meisam.org/">HOME</a>
-						<a class="headerlinks" href="#projects">PROJECTS</a>
-						<a class="headerlinks" href="#contact">CONTACT</a>
-					</nav>
-				</div>
-
-				<div class="intro">
-					<h1 class="heading"></h1>
-					<p class="bio"></p>
-					<button class="need">I need a website ></button>
-					<a href="#contact" style="border: none;"><button class="looking">More about me ></button></a>
-				</div>
+		<div id="branding" class="brand">
+			<div>
+				<h3>Meisam Poorzand</h3>
+				<h6>Full-stack web developer</h6>
+			</div>
+			<div>
+				<a class="navlinks" href="http://www.meisam.org/">HOME</a>
+				<a class="navlinks" href="#projects">PROJECTS</a>
+				<a class="navlinks" href="#contact">CONTACT</a>
 			</div>
 		</div>
+		
+			<div class="intro">
+				<h1 class="heading" id="header"></h1>
+				<p class="bio" id="demo"></p>
+				<button class="reqbtn">I need a website ></button>
+				<a href="#contact"><button class="aboutbtn">More about me></button></a>
+			</div>
+		
 	</header>
-	<main id="projects">
-		<div class="firstProj">
+	<main class="projects" id="projects">
+		<div class="proj">
 			<img class="samplePhoto" src="images/minesweeper1.png">
 			<div>
-				<a href="/minesweeper/index.html" class="title">Minesweeper</a>
+				<a target="_blank" href="/minesweeper/index.html" class="appname"><h3>Minesweeper</h3></a>
 				<p>a logical guessing game</a></p>
 				<p class="techused">jQuery</p>
 				<p class="techused">JavaScript</p>
 			</div>
 
 		</div>
-		<div class="firstProj">
+		<div class="proj">
 			<img class="samplePhoto2" src="images/memesagram2.png">
 			<div>
-				<a href="http://memesagram.herokuapp.com/" class="title">Memesagram</a>
+				<a target="_blank" href="http://memesagram.herokuapp.com/" class="appname"><h3>Memesagram</h3></a>
 				<p>a coders social media app</a></p>
-				<div>
+				<div class="techs">
 						<div>
 							<p class="techused">Node.js</p>
 							<p class="techused">Express.js</p>
@@ -64,25 +64,18 @@
 							<p class="techused">Bootstrap cdn</p>
 						</div>
 					</div>
-
 			</div>
-
-			
-
-
-
-
 		</div>
 	</main>
-	<section id="contact">
-		<img src="images/meisam1.jpg">
-		<div>
-			<p style="color: rgb(255,0,60)">Meisam Poorzand</p>
-			<p><a href="mailto:admin@meisam.org">admin@meisam.org</a></p>
+	<section class="contactmeisam" id="contact">
+		<img class="meisam" src="images/meisam1.jpg">
+		<div class="myinfo">
+			<p>Meisam Poorzand</p>
+			<p><a class="myemail" href="mailto:admin@meisam.org">admin@meisam.org</a></p>
 			<p>Los Angeles, CA</p>
 		</div>
 	</section>
-	<section class="bottomnav">
+	<section class="secondfooter">
 		<div>
 			<h1>Get In Touch</h1>
 			<p>I love helping great people with great projects. <br>Sounds like you? Let's talk!</p>
