@@ -33,6 +33,9 @@ h3, h6 {
     font-family: 'Concert One', cursive;
     font-family: 'Audiowide', cursive;
 }
+h1 {
+	font-size: 24px;
+}
 .navlinks {
 	color: white;
 	text-decoration: none;
@@ -204,6 +207,9 @@ p {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+	}
+	h1 {
+		font-size: 40px;
 	}
 	
 }
