@@ -103,6 +103,7 @@ footer{
 .socialmedia{
 	width: 25px;
 	height: 25px;
+	margin: 10px;
 }
 
 .secondfooter {
@@ -116,12 +117,13 @@ footer{
 	clip-path: polygon(0 0,100% 100px, 100% 100%,0 100%);
 	
 	-webkit-clip-path: polygon(0 0,100% 100px, 100% 100%,0 100%);
-	height: 400px;
+	height: 700px;
 	margin-bottom: 3px;
 	color: white;
 }
 
 .social{
+	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -195,9 +197,9 @@ p {
 	.scroll {
 		flex-direction: row;
 	}
-	.brand {
+	/* .brand {
 		align-items: baseline;
-	}
+	} */
 	.intro {
 		width: 70%;
 		margin: 0 15%;
