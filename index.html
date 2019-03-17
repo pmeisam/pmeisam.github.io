@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>Meisam Poorzand</title>
 	<meta charset="UTF-8">
@@ -13,8 +12,7 @@
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<script defer src="js/main.js"></script>
 </head>
-
-<body>
+<body id="home">
 	<div id="branding" class="brand">
 		<div>
 			<h3>Meisam Poorzand</h3>
@@ -22,15 +20,14 @@
 		</div>
 		<!-- <div style="background-image: url('./images/redlogo.png');"></div> -->
 		<!-- <img class="logo" src="images/redlogo.png" alt=""> -->
-		<div>
-			<a class="navlinks" href="http://www.meisam.org/">HOME</a>
+		<dive>
+			<a class="navlinks" href="#home">HOME</a>
 			<a class="navlinks" href="#projects">PROJECTS</a>
+			<a class="navlinks" href="#skills">SKILLS</a>
 			<a class="navlinks" href="#contact">CONTACT</a>
-		</div>
 	</div>
-
+	</div>
 	<header>
-
 		<div class="intro">
 			<h1 class="heading" id="header">Full-Stack Web Developer</h1>
 			<p class="bio" id="demo">Full-stack software engineer with an education in computer science. Soccer fan and
@@ -41,26 +38,33 @@
 			<!-- <button class="reqbtn">I need a website ></button>
 				<a href="#contact"><button class="aboutbtn">More about me></button></a> -->
 		</div>
-
 	</header>
-	<main class="projects" id="projects">
+	<div id="projects" style="height: 100px;"></div>
+	<main class="projects">
 		<div class="proj">
 			<img class="samplePhoto" src="images/minesweeper1.png">
 			<div>
 				<a target="_blank" href="/minesweeper/index.html" class="appname">
-					<h3>Minesweeper</h3>
+					Minesweeper
 				</a>
 				<p>a logical guessing game</a></p>
-				<p class="techused">jQuery</p>
-				<p class="techused">JavaScript</p>
+				<div class="techs">
+					<div>
+						<p class="techused">JavaScript</p>
+						<p class="techused">jQuery</p>
+					</div>
+					<div>
+						<p class="techused">HTML</p>
+						<p class="techused">CSS</p>
+					</div>
+				</div>
 			</div>
-
 		</div>
 		<div class="proj">
-			<img class="samplePhoto2" src="images/memesagram2.png">
+			<img class="samplePhoto2" src="images/memesagram1.png">
 			<div>
 				<a target="_blank" href="http://memesagram.herokuapp.com/" class="appname">
-					<h3>Memesagram</h3>
+					Memesagram
 				</a>
 				<p>a coders social media app</a></p>
 				<div class="techs">
@@ -78,37 +82,53 @@
 			</div>
 		</div>
 	</main>
-	<div id="contact" style="height: 150px;"></div>
-	<section class="contactmeisam">
+	<div id="skills" style="height: 100px;"></div>
+	<div style="padding: 20px; text-align: center;">
+		<!-- <h1>Technical skills</h1> -->
+		<img class="techskillslong" src="images/techsLogos/mongodb.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/Expressjs.png" alt="">
+		<img class="techskills" src="images/techsLogos/react.png" alt="">
+		<img class="techskills" src="images/techsLogos/node.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/mongoose.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/html.png" alt="">
+		<img class="techskills" src="images/techsLogos/jquery.png" alt="">
+		<img class="techskills" src="images/techsLogos/bootstrap.png" alt="">
+		<img class="techskills" src="images/techsLogos/materialize.png" alt="">
+		<img class="techskills" src="images/techsLogos/ejs.png" alt="">
+		<img class="techskills" src="images/techsLogos/postgresql.png" alt="">
+		<img class="techskills" src="images/techsLogos/python.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/django.png" alt="">
+		<img class="techskills" src="images/techsLogos/cpp.png" alt="">
+		<img class="techskills" src="images/techsLogos/terminal.png" alt="">
+		<img class="techskills" src="images/techsLogos/oauth.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/socketio.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/json.png" alt="">
+		<img class="techskills" src="images/techsLogos/c.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/aws.png" alt="">
+		<img class="techskills" src="images/techsLogos/api.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/angular.png" alt="">
+		<img class="techskillslong" src="images/techsLogos/github.png" alt="">
+		<img class="techskills" src="images/techsLogos/git.png" alt="">
+	</div>
+	<div style="height: 135px;"></div>
+	<section id="contact" class="secondfooter contactmeisam">
+
 		<img class="meisam" src="images/meisam1.jpg">
 		<div class="myinfo">
-			<p>Meisam Poorzand</p>
-			<p><a class="myemail" href="mailto:admin@meisam.org">admin@meisam.org</a></p>
+			<h3>Meisam Poorzand</h3>
+			<p><a class="myemail" href="mailto:info@meisam.org">info@meisam.org</a></p>
 			<p>Los Angeles, CA</p>
-		</div>
-	</section>
-	<section class="secondfooter">
-		<div style="padding: 20px;">
-			<h1>Get In Touch</h1>
-			<p>I love helping great people with great projects. Sounds like you? Let's talk!</p>
-			<p>Technical skills:<br>
-				ReactJS | JavaScript | NodeJS | Express | Mongoose | MongoDB | NoSQL database | Python | Django | SQL
-				database | PostgreSQL | Bootstrap | Materialize | HTML | CSS | jQuery | Underscore | APIs | Socket.io |
-				EJS | JWTs | OAuth | Terminal | GitHub | noSQL | RegEx | AWS | MERN | MEAN | Heroku | C++ | C | JSON |
-				Assembly Language | Hexa Decimal | Ascii code | Machine Language</p>
-		</div>
-		<div class="social">
-			<a href="https://github.com/pmeisam"><img class="socialmedia" src="images/github.png"></a>
-			<a href="https://www.facebook.com/pmeisam"><img class="socialmedia" src="images/facebook.png"></a>
-			<a href="https://www.linkedin.com/in/meisam-poorzand-63938b76/"><img class="socialmedia"
-					src="images/linkedin.png"></a>
-			<a href="mailto: meisam.poorzand@gmail.com"><img class="socialmedia" src="images/email.png"></a>
+			<div class="social">
+				<a href="https://github.com/pmeisam"><img class="socialmedia" src="images/github.png"></a>
+				<a href="https://www.facebook.com/pmeisam"><img class="socialmedia" src="images/facebook.png"></a>
+				<a href="https://www.linkedin.com/in/meisam-poorzand-63938b76/"><img class="socialmedia"
+						src="images/linkedin.png"></a>
+				<a href="mailto: meisam.poorzand@gmail.com"><img class="socialmedia" src="images/email.png"></a>
+			</div>
 		</div>
 	</section>
 	<footer>
 		<p>&#9400;2019 Meisam Poorzand. All rights reserved.</p>
 	</footer>
-
 </body>
-
 </html>
