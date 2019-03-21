@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Meisam Poorzand</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Audiowide|Concert+One|Quicksand" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<script defer src="js/main.js"></script>
 </head>
+
 <body id="home">
-	<div id="branding" class="brand">
-		<div>
-			<h3>Meisam Poorzand</h3>
+	<!-- <div id="branding" class="brand"> -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light brand">
+		<div style="display: flex; flex-direction: column;">
+			<a class="navbar-brand" href="#home">
+				<h4>Meisam Poorzand</h4>
+			</a>
 			<h6>Full-stack web developer</h6>
 		</div>
-		<!-- <div style="background-image: url('./images/redlogo.png');"></div> -->
-		<!-- <img class="logo" src="images/redlogo.png" alt=""> -->
-		<dive>
-			<a class="navlinks" href="#home">HOME</a>
-			<a class="navlinks" href="#projects">PROJECTS</a>
-			<a class="navlinks" href="#skills">SKILLS</a>
-			<a class="navlinks" href="#contact">CONTACT</a>
-	</div>
-	</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav nav-items" style="margin-left: auto;">
+				<a class="nav-item nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#projects">PROJECTS</a>
+				<a class="nav-item nav-link" href="#skills">SKILLS</a>
+				<a class="nav-item nav-link" href="#contact">CONTACT</a>
+			</div>
+		</div>
+	</nav>
+	<!-- <div>
+
+		
+		<a class="navlinks" href="#home">HOME</a>
+		<a class="navlinks" href="#projects">PROJECTS</a>
+		<a class="navlinks" href="#skills">SKILLS</a>
+		<a class="navlinks" href="#contact">CONTACT</a>
+		</div>
+		</div> -->
 	<header>
 		<div class="intro">
 			<h1 class="heading" id="header">Full-Stack Web Developer</h1>
-			<p class="bio" id="demo">Full-stack software engineer with an education in computer science. Soccer fan and
-				motivated self-starter with a persistent drive to succeed, and I am always looking for opportunities to
+			<p class="bio" id="demo">Full-stack software engineer with an education in computer science. Soccer fan
+				and
+				motivated self-starter with a persistent drive to succeed, and I am always looking for opportunities
+				to
 				learn and develop new skills. Passionate about development as the vehicle for making positive
 				social-change through teaching others the love of technology. I’m focused on building intuitive,
 				user-friendly applications, to ultimately improve the user experience.</p>
@@ -44,11 +75,12 @@
 		<div class="proj">
 			<img class="samplePhoto" src="images/minesweeper1.png">
 			<div>
-				
-				<a target="_blank" href="https://github.com/pmeisam/minesweeper"><img src="images/github.png" class="socialmedia" alt=""></a>
+
 				<a target="_blank" href="/minesweeper/index.html" class="appname">
 					Minesweeper
 				</a>
+				<a target="_blank" href="https://github.com/pmeisam/minesweeper"><img src="images/github.png"
+						class="socialmedia" alt=""></a>
 				<p>a logical guessing game</p>
 				<div class="techs">
 					<div>
@@ -65,11 +97,12 @@
 		<div class="proj">
 			<img class="samplePhoto2" src="images/memesagram1.png">
 			<div>
-				
-				<a target="_blank" href="https://github.com/pmeisam/instagram"><img src="images/github.png" class="socialmedia" alt=""></a>
+
 				<a target="_blank" href="http://memesagram.herokuapp.com/" class="appname">
 					Memesagram
 				</a>
+				<a target="_blank" href="https://github.com/pmeisam/instagram"><img src="images/github.png"
+						class="socialmedia" alt=""></a>
 				<p>a coders social media app</a></p>
 				<div class="techs">
 					<div>
@@ -125,9 +158,8 @@
 			<div class="social">
 				<a href="https://github.com/pmeisam"><img class="socialmedia" src="images/github.png"></a>
 				<a href="https://www.facebook.com/pmeisam"><img class="socialmedia" src="images/facebook.png"></a>
-				<a href="https://www.linkedin.com/in/meisam-poorzand-63938b76/"><img class="socialmedia"
-						src="images/linkedin.png"></a>
-				<a href="mailto: meisam.poorzand@gmail.com"><img class="socialmedia" src="images/email.png"></a>
+				<a href="https://www.linkedin.com/in/pmeisam"><img class="socialmedia" src="images/linkedin.png"></a>
+				<a href="mailto: info@meisam.org"><img class="socialmedia" src="images/email.png"></a>
 			</div>
 		</div>
 	</section>
@@ -135,4 +167,5 @@
 		<p>&#9400;2019 Meisam Poorzand. All rights reserved.</p>
 	</footer>
 </body>
+
 </html>
