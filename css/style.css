@@ -238,7 +238,14 @@ p {
 	h1 {
 		font-size: 40px;
 	}
-
+	.samplePhoto {
+		width: 585px;
+		height: 350px;
+	}
+	.samplePhoto2 {
+		width: 610px;
+		height: 390px;
+	}
 }
 @media only screen and ( min-width: 840px ){
 	.samplePhoto {
