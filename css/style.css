@@ -196,6 +196,10 @@ p {
 	border-bottom: none;
 	color: #f04;
 }
+.samplePhoto3 {
+	width: 375px;
+	height: 260px;
+}
 .samplePhoto2 {
 	width: 375px;
 	height: 260px;
@@ -246,6 +250,10 @@ p {
 		width: 610px;
 		height: 390px;
 	}
+	.samplePhoto3 {
+		width: 610px;
+		height: 390px;
+	}
 }
 @media only screen and ( min-width: 840px ){
 	.samplePhoto {
@@ -253,6 +261,11 @@ p {
 		height: 480px;
 	}
 	.samplePhoto2 {
+		width: 863px;
+		height: 593px;
+		margin-top: 85px;
+	}
+	.samplePhoto3 {
 		width: 863px;
 		height: 593px;
 		margin-top: 85px;
