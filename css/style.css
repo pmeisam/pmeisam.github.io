@@ -66,13 +66,18 @@ h5, h6 {
 h1 {
 	font-size: 24px;
 }
-.navlinks {
+a {
+	color: black;
+}
+.active {
 	color: black;
 	text-decoration: none;
 	padding: 0 7px;
 	font-weight: 800;
+	margin: 0 10px;
 }
-.nav-links:hover {
+.active:hover {
+	/* border: solid 2px #f04; */
 	color: #f04;
 }
 .intro {
