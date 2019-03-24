@@ -24,6 +24,7 @@ body {
 	z-index: 999;
 }
 
+
 .scroll div a {
 	color: black;
 }
@@ -85,6 +86,10 @@ a {
 	width: 80%;
 	/* margin: 0 10%; */
 	/* margin-top: 45%; */
+}
+.skillSize {
+	font-size: 30px;
+	margin: 5px;
 }
 .aboutbtn {
 	background-color: rgba(120, 120, 120,0.5);
@@ -206,16 +211,12 @@ p {
 	border-bottom: none;
 	color: #f04;
 }
-.samplePhoto3 {
-	width: 375px;
-	height: 260px;
+a:hover{
+	color: #f04;
 }
-.samplePhoto2 {
-	width: 375px;
-	height: 260px;
-}
+
 .samplePhoto{
-	width: 400px;
+	width: 375px;
 	height: 215px;
 }
 .projects {
@@ -248,7 +249,10 @@ p {
 		flex-direction: row;
 		height: 120px;
 	}
-	
+	.skillSize {
+		font-size: 40px;
+		margin: 10px;
+	}
 	h1 {
 		font-size: 40px;
 	}
