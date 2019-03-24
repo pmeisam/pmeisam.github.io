@@ -1,195 +1,258 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Meisam Poorzand</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide|Concert+One|Quicksand"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
 
-<head>
-	<title>Meisam Poorzand</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Audiowide|Concert+One|Quicksand" rel="stylesheet">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
-	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-	<script defer src="js/main.js"></script>
-</head>
-
-<body id="home">
-	<!-- <div id="branding" class="brand"> -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light brand">
-		<div style="display: flex; flex-direction: column;">
-			<a class="navbar-brand" href="#home">
-				<h5>Meisam Poorzand</h5>
-			</a>
-			<h6 class="detail">Full-stack web developer</h6>
-		</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav nav-items" style="margin-left: auto;">
-				<a class="nav-item nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#projects">PROJECTS</a>
-				<a class="nav-item nav-link" href="#skills">SKILLS</a>
-				<a class="nav-item nav-link" href="#contact">CONTACT</a>
-			</div>
-		</div>
-	</nav>
-	<!-- <div>
-
-		
-		<a class="navlinks" href="#home">HOME</a>
-		<a class="navlinks" href="#projects">PROJECTS</a>
-		<a class="navlinks" href="#skills">SKILLS</a>
-		<a class="navlinks" href="#contact">CONTACT</a>
-		</div>
-		</div> -->
-	<header>
-		<div class="intro">
-			<h1 class="heading" id="header">Full-Stack Web Developer</h1>
-			<p class="bio" id="demo">Full-stack software engineer with an education in computer science. Soccer fan
-				and
-				motivated self-starter with a persistent drive to succeed, and I am always looking for opportunities
-				to
-				learn and develop new skills. Passionate about development as the vehicle for making positive
-				social-change through teaching others the love of technology. I’m focused on building intuitive,
-				user-friendly applications, to ultimately improve the user experience.</p>
-			<!-- <button class="reqbtn">I need a website ></button>
+  <body id="home">
+    <!-- <div id="branding" class="brand"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light brand">
+      <div style="display: flex; flex-direction: column;">
+        <a class="navbar-brand" href="#home">
+          <h5>Meisam Poorzand</h5>
+          <h6 class="detail">Full-stack web developer</h6>
+        </a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav nav-items" style="margin-left: auto;">
+          <a class="nav-item nav-link active" href="#home"
+            >HOME <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link active" href="#projects">PROJECTS</a>
+          <a class="nav-item nav-link active" href="#skills">SKILLS</a>
+          <a class="nav-item nav-link active" href="#contact">CONTACT</a>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="intro">
+        <h1 class="heading" id="header">Full-Stack Web Developer</h1>
+        <p class="bio" id="demo">
+          Full-stack software engineer with an education in computer science.
+          Soccer fan and motivated self-starter with a persistent drive to
+          succeed, and I am always looking for opportunities to learn and
+          develop new skills. Passionate about development as the vehicle for
+          making positive social-change through teaching others the love of
+          technology. I’m focused on building intuitive, user-friendly
+          applications, to ultimately improve the user experience.
+        </p>
+        <!-- <button class="reqbtn">I need a website ></button>
 				<a href="#contact"><button class="aboutbtn">More about me></button></a> -->
-		</div>
-	</header>
-	<div id="projects" style="height: 100px;"></div>
-	<main class="projects">
-		<div class="proj">
-			<img class="samplePhoto" src="images/minesweeper.png">
-			<div>
-				<a target="_blank" href="/minesweeper/index.html" class="appname">
-					<h5>minesweeper</h5>
-				</a>
-				<a target="_blank" href="https://github.com/pmeisam/minesweeper"><img src="images/github.png"
-						class="socialmedia" alt=""></a>
-				<p class="detail">The game is about finding the hidden mines. Each box you click on will either show a number of mines around each box or a mine. If there is no number it means that there is no mine around it. You can put a flag by right-clicking anywhere you think there is a mine. If you click all the boxes without clicking a mine, you will win.</p>
-				<div class="techs">
-					<div>
-						<p class="techused">JavaScript</p>
-						<p class="techused">jQuery</p>
-					</div>
-					<div>
-						<p class="techused">HTML</p>
-						<p class="techused">CSS</p>
-					</div>
-				</div>
-			</div>
-		</div>
+      </div>
+    </header>
+    <div id="projects" style="height: 40px;"></div>
+    <main class="projects">
+      <div class="proj">
+        <img class="samplePhoto" src="images/minesweeper.png" />
+        <div>
+          <a target="_blank" href="/minesweeper/index.html" class="appname">
+            <h5>minesweeper</h5>
+          </a>
+          <a target="_blank" href="https://github.com/pmeisam/minesweeper"
+            ><img src="images/github.png" class="socialmedia" alt=""
+          /></a>
 
-		<div class="proj">
-			<img class="samplePhoto" src="images/memesagram.png">
-			<div>
-				<a target="_blank" href="http://memesagram.herokuapp.com/" class="appname">
-					<h5>memesagram</h5>
-				</a>
-				<a target="_blank" href="https://github.com/pmeisam/instagram"><img src="images/github.png"
-						class="socialmedia" alt=""></a>
-				<p class="detail">Memesagram is a social media platform where users can login with their Google account and upload photos, especially memes. Users can also comment, like, and update their profiles with photos and custom usernames. In addition, users can edit or delete their comments and captions.</p>
-				<div class="techs">
-					<div>
-						<p class="techused">Node.js</p>
-						<p class="techused">Express.js</p>
-						<p class="techused">MongoDB</p>
-					</div>
-					<div>
-						<p class="techused">Mongoose</p>
-						<p class="techused">Google oAuth</p>
-						<p class="techused">Bootstrap cdn</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="proj">
-			<img class="samplePhoto" src="images/vagary.png">
-			<div>
-				<a target="_blank" href="http://vagary.herokuapp.com/" class="appname">
-					<h5>vagary</h5>
-				</a>
-				<a target="_blank" href="https://github.com/pmeisam/vagary"><img src="images/github.png"
-						class="socialmedia" alt=""></a>
-				<p class="detail">A full-service travel planning app that matches you with flights and hotels based on your travel budget. Whethere you're planning a romantic getaway, a family vacation, or just need a weekend escape.</p>
-				<div class="techs">
-					<div>
-						<p class="techused">Python</p>
-						<p class="techused">django</p>
-						<p class="techused">PostgreSQL</p>
-					</div>
-					<div>
-						<p class="techused">IATA Codes API</p>
-						<p class="techused">Amadeus API</p>
-						<p class="techused">Bootstrap cdn</p>
-					</div>
-				</div>
-			</div>
-		</div>
+          <p class="detail">
+            The game is about finding the hidden mines. Each box you click on
+            will either show a number of mines around each box or a mine. If
+            there is no number it means that there is no mine around it. You can
+            put a flag by right-clicking anywhere you think there is a mine. If
+            you click all the boxes without clicking a mine, you will win.
+          </p>
+          <div class="techs">
+            <div>
+              <p class="techused">JavaScript</p>
+              <p class="techused">jQuery</p>
+            </div>
+            <div>
+              <p class="techused">HTML</p>
+              <p class="techused">CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-	</main>
+      <div class="proj">
+        <img class="samplePhoto" src="images/memesagram.png" />
+        <div>
+          <a
+            target="_blank"
+            href="http://memesagram.herokuapp.com/"
+            class="appname"
+          >
+            <h5>memesagram</h5>
+          </a>
+          <a target="_blank" href="https://github.com/pmeisam/instagram"
+            ><img src="images/github.png" class="socialmedia" alt=""
+          /></a>
+          <p class="detail">
+            Memesagram is a social media platform where users can login with
+            their Google account and upload photos, especially memes. Users can
+            also comment, like, and update their profiles with photos and custom
+            usernames. In addition, users can edit or delete their comments and
+            captions.
+          </p>
+          <div class="techs">
+            <div>
+              <p class="techused">Node.js</p>
+              <p class="techused">Express.js</p>
+              <p class="techused">MongoDB</p>
+            </div>
+            <div>
+              <p class="techused">Mongoose</p>
+              <p class="techused">Google oAuth</p>
+              <p class="techused">Bootstrap cdn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="proj">
+        <img class="samplePhoto" src="images/vagary.png" />
+        <div>
+          <a
+            target="_blank"
+            href="http://vagary.herokuapp.com/"
+            class="appname"
+          >
+            <h5>vagary</h5>
+          </a>
+          <a target="_blank" href="https://github.com/pmeisam/vagary"
+            ><img src="images/github.png" class="socialmedia" alt=""
+          /></a>
 
-	<div id="skills" style="height: 100px;"></div>
-	<div style="padding: 20px; text-align: center;">
-		<!-- <h1>Technical skills</h1> -->
-		<img class="techskillslong" src="images/techsLogos/mongodb.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/Expressjs.png" alt="">
-		<img class="techskills" src="images/techsLogos/react.png" alt="">
-		<img class="techskills" src="images/techsLogos/node.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/mongoose.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/html.png" alt="">
-		<img class="techskills" src="images/techsLogos/jquery.png" alt="">
-		<img class="techskills" src="images/techsLogos/bootstrap.png" alt="">
-		<img class="techskills" src="images/techsLogos/materialize.png" alt="">
-		<img class="techskills" src="images/techsLogos/ejs.png" alt="">
-		<img class="techskills" src="images/techsLogos/postgresql.png" alt="">
-		<img class="techskills" src="images/techsLogos/python.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/django.png" alt="">
-		<img class="techskills" src="images/techsLogos/cpp.png" alt="">
-		<img class="techskills" src="images/techsLogos/terminal.png" alt="">
-		<img class="techskills" src="images/techsLogos/oauth.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/socketio.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/json.png" alt="">
-		<img class="techskills" src="images/techsLogos/c.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/aws.png" alt="">
-		<img class="techskills" src="images/techsLogos/api.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/angular.png" alt="">
-		<img class="techskillslong" src="images/techsLogos/github.png" alt="">
-		<img class="techskills" src="images/techsLogos/git.png" alt="">
-	</div>
-	<div style="height: 135px;"></div>
-	<section id="contact" class="secondfooter contactmeisam">
-
-		<img class="meisam" src="images/meisam1.jpg">
-		<div class="myinfo">
-			<h3>Meisam Poorzand</h3>
-			<p><a class="myemail" href="mailto:info@meisam.org">info@meisam.org</a></p>
-			<p>Los Angeles, CA</p>
-			<div class="social">
-				<a href="https://github.com/pmeisam"><img class="socialmedia" src="images/github.png"></a>
-				<a href="https://www.facebook.com/pmeisam"><img class="socialmedia" src="images/facebook.png"></a>
-				<a href="https://www.linkedin.com/in/pmeisam"><img class="socialmedia" src="images/linkedin.png"></a>
-				<a href="mailto: info@meisam.org"><img class="socialmedia" src="images/email.png"></a>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<p>&#9400;2019 Meisam Poorzand. All rights reserved.</p>
-	</footer>
-</body>
-
+          <p class="detail">
+            A full-service travel planning app that matches you with flights and
+            hotels based on your travel budget. Whethere you're planning a
+            romantic getaway, a family vacation, or just need a weekend escape.
+          </p>
+          <div class="techs">
+            <div>
+              <p class="techused">Python</p>
+              <p class="techused">django</p>
+              <p class="techused">PostgreSQL</p>
+            </div>
+            <div>
+              <p class="techused">IATA Codes API</p>
+              <p class="techused">Amadeus API</p>
+              <p class="techused">Bootstrap cdn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="skills" style="height: 60px;"></div>
+    <div style="padding: 20px; text-align: center;">
+      <!-- <h1>Technical skills</h1> -->
+      <img class="techskillslong" src="images/techsLogos/mongodb1.png" alt="" />
+      <img
+        class="techskillslong"
+        src="images/techsLogos/expressjs1.png"
+        alt=""
+      />
+      <img class="techskillslong" src="images/techsLogos/react1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/node1.png" alt="" />
+      <img
+        class="techskillslong"
+        src="images/techsLogos/mongoose1.png"
+        alt=""
+      />
+      <img class="techskillslong" src="images/techsLogos/angular1.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/python1.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/django1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/postgresql1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/html1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/css1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/js1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/jquery1.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/ajax1.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/bootstrap1.png" />
+      <img class="techskills" src="images/techsLogos/materialize.png" alt="" />
+      <img class="techskills" src="images/techsLogos/ejs.png" alt="" />
+      <img class="techskills" src="images/techsLogos/c1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/cpp1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/terminal.png" alt="" />
+      <img class="techskills" src="images/techsLogos/oauth.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/socketio.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/json1.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/aws1.png" alt="" />
+      <img class="techskills" src="images/techsLogos/api.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/github1.png" alt="" />
+      <img class="techskillslong" src="images/techsLogos/git1.png" alt="" />
+    </div>
+    <div style="height: 135px;"></div>
+    <section id="contact" class="secondfooter contactmeisam">
+      <img class="meisam" src="images/meisam1.jpg" />
+      <div class="myinfo">
+        <h3>Meisam Poorzand</h3>
+        <p>
+          <a class="myemail" href="mailto:info@meisam.org">info@meisam.org</a>
+        </p>
+        <p>Los Angeles, CA</p>
+        <div class="social">
+          <a href="https://github.com/pmeisam"
+            ><img class="socialmedia" src="images/github.png"
+          /></a>
+          <a href="https://www.facebook.com/pmeisam"
+            ><img class="socialmedia" src="images/facebook.png"
+          /></a>
+          <a href="https://www.linkedin.com/in/pmeisam"
+            ><img class="socialmedia" src="images/linkedin.png"
+          /></a>
+          <a href="mailto: info@meisam.org"
+            ><img class="socialmedia" src="images/email.png"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&#9400;2019 Meisam Poorzand. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
