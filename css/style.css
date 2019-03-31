@@ -1,326 +1,334 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 html {
-	height: 100%;
+  height: 100%;
 }
 body {
-	font-family: 'Quicksand', sans-serif;
-	margin: 0;
-	background-color: rgb(243,243,243);
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  background-color: rgb(243, 243, 243);
 }
 .scroll {
-	background-color: white;
-	color: black;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	height: 140px;
-	align-items: center;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	left: 0;
-	z-index: 999;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 140px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 999;
 }
-
 
 .scroll div a {
-	color: black;
+  color: black;
 }
 .brand {
-	color: black;
-	/* display: flex; */
-	position: fixed;
-	background-color: white;
-	width: 100%;
-	z-index: 999;
+  color: black;
+  /* display: flex; */
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 999;
 }
 nav-items {
-	margin-left: auto;
+  margin-left: auto;
 }
 header {
-	width: 100%;
-	background-image: url("../images/background.jpg");
-	background-size: cover;
-	height: 800px;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    /* width: 80%; */
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* width: 80%; */
+  align-items: center;
+  justify-content: center;
 }
 h6 {
-	margin-top: -13px;
-	font-size: 13px;
+  margin-top: -13px;
+  font-size: 13px;
 }
 h3 {
-	font-size: 22px;
+  font-size: 22px;
 }
-h5, h6 {
-	text-transform: uppercase;
-	font-family: 'Quicksand', sans-serif;
-    font-family: 'Concert One', cursive;
-    font-family: 'Audiowide', cursive;
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Concert One", cursive;
+  font-family: "Audiowide", cursive;
 }
 h1 {
-	font-size: 24px;
+  font-size: 24px;
 }
 a {
-	color: black;
+  color: black;
 }
 .active {
-	color: black;
-	text-decoration: none;
-	padding: 0 7px;
-	font-weight: 800;
-	margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  padding: 0 7px;
+  font-weight: 800;
+  margin: 0 10px;
 }
 .active:hover {
-	/* border: solid 2px #f04; */
-	color: #f04;
+  /* border: solid 2px #f04; */
+  color: #f04;
 }
 .intro {
-	/* color: #fff; */
-	width: 80%;
-	/* margin: 0 10%; */
-	/* margin-top: 45%; */
+  /* color: #fff; */
+  width: 80%;
+  /* margin: 0 10%; */
+  /* margin-top: 45%; */
 }
 .skillSize {
-	font-size: 30px;
-	margin: 5px;
+  font-size: 30px;
+  margin: 5px;
 }
 .aboutbtn {
-	background-color: rgba(120, 120, 120,0.5);
-	border: none;
-	color: white;
-	padding: 15px 35px;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
+  background-color: rgba(120, 120, 120, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
 }
 .reqbtn {
-	background-color: #f04;
-	border: none;
-	color: white;    
-	padding: 15px 35px;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
+  background-color: #f04;
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
 }
-footer{
-	bottom: 0;
-	background-color: #f04;
-	height: 70px;
-	text-align: center;
-	color: white;
-	display: flex;
-	justify-content: center;
+footer {
+  bottom: 0;
+  background-color: #f04;
+  height: 70px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 .myemail {
-	color: white;
-	text-decoration: none;
-	padding: 2px;
+  color: white;
+  text-decoration: none;
+  padding: 2px;
 }
 .myemail:hover {
-	border-bottom: 2px white;
-	color: white;
+  border-bottom: 2px white;
+  color: white;
 }
 .techskills {
-	width: 25px;
-	height: 25px;
-	margin: 10px;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
 }
 .techskillslong {
-	width: 85px;
-	height: 25px;
-	margin: 10px;
+  width: 85px;
+  height: 25px;
+  margin: 10px;
 }
 .socialmedia {
-	width: 30px;
-	height: 30px;
-	margin:0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px 0 0;
 }
 .socialmedia:hover {
-	/* cursor: url(../images/cursor.png), auto; */
-    transform: rotate(360deg);
-    transition: all 0.3s ease-in-out 0s;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -ms-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
+  /* cursor: url(../images/cursor.png), auto; */
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
 
 .secondfooter {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	text-align: center;
-	background-color: #f04;
-	clip-path: polygon(0 0,100% 100px, 100% 100%,0 100%);
-	-webkit-clip-path: polygon(0 0,100% 100px, 100% 100%,0 100%);
-	-ms-clip-path: polygon(0 0,100% 100px, 100% 100%,0 100%);
-	-moz-clip-path: polygon(0 0,100% 100px, 100% 100%,0 100%);
-	height: 400px;
-	margin-bottom: 3px;
-	color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #f04;
+  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+  -ms-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+  -moz-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+  height: 400px;
+  margin-bottom: 3px;
+  color: white;
 }
 .detail {
-	font-size: 13px;
-	color: darkgray;
+  font-size: 13px;
+  color: darkgray;
 }
 .meisam {
-	width: 180px;
-	height: 180px;
-	border-radius: 50%;
-	display: none;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: none;
 }
 .contactmeisam {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .myinfo {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .techused {
-	background-color: #f04;
-	color: white;
-	text-align: center;
-	border-radius: 5px;
-	font-size: 12px;
-	width: 100px;
-	height: 20px;
-	margin: 5px;
-	line-height: 20px;
+  background-color: #f04;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 100px;
+  height: 20px;
+  margin: 5px;
+  line-height: 20px;
 }
 p {
-	line-height: 30px;
-	margin-top: 20px;
+  line-height: 30px;
+  margin-top: 20px;
 }
 .appname {
-	/* font-size: 25px; */
-	/* font-weight: 900; */
-	color: black;
-	text-decoration: none;
-	/* line-height: 5px; */
+  /* font-size: 25px; */
+  /* font-weight: 900; */
+  color: black;
+  text-decoration: none;
+  /* line-height: 5px; */
 }
 .appname:hover {
-	text-decoration: none;
-	border-bottom: none;
-	color: #f04;
+  text-decoration: none;
+  border-bottom: none;
+  color: #f04;
 }
-a:hover{
-	color: #f04;
+a:hover {
+  color: #f04;
 }
 
-.samplePhoto{
-	width: 375px;
-	height: 215px;
+.samplePhoto {
+  width: 375px;
+  height: 215px;
 }
 .projects {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 50px 0 50px 0;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 50px 0;
+  text-align: center;
 }
 .techs {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .proj {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: white;
-	padding: 5px;
-	margin-bottom: 40px;
-	border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn-outline-danger {
+  border: 1px solid #f04;
+  color: #f04;
+}
+.btn-outline-danger:hover {
+  background-color: #f04;
+  border: 1px solid #f04;
+  color: white;
 }
 
-@media only screen and ( min-width: 600px ){
-	
-	.scroll {
-		flex-direction: row;
-		height: 120px;
-	}
-	.skillSize {
-		font-size: 40px;
-		margin: 10px;
-	}
-	h1 {
-		font-size: 40px;
-	}
-	.samplePhoto {
-		width: 635px;
-		height: 350px;
-	}
-	.samplePhoto2 {
-		width: 610px;
-		height: 390px;
-	}
-	.samplePhoto3 {
-		width: 610px;
-		height: 390px;
-	}
-	.meisam {
-		width: 180px;
-		height: 180px;
-		border-radius: 50%;
-		display: inline;
-	}
-	.secondfooter {
-		text-align: left;
-	}
-	h3 {
-		font-size: 1.75rem;
-	}
+@media only screen and (min-width: 600px) {
+  .scroll {
+    flex-direction: row;
+    height: 120px;
+  }
+  .skillSize {
+    font-size: 40px;
+    margin: 10px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .samplePhoto {
+    width: 635px;
+    height: 350px;
+  }
+  .samplePhoto2 {
+    width: 610px;
+    height: 390px;
+  }
+  .samplePhoto3 {
+    width: 610px;
+    height: 390px;
+  }
+  .meisam {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: inline;
+  }
+  .secondfooter {
+    text-align: left;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
 }
-@media only screen and ( min-width: 840px ){
-	.samplePhoto {
-		width: 870px;
-		height: 480px;
-	}
-	.samplePhoto2 {
-		width: 863px;
-		height: 593px;
-		margin-top: 85px;
-	}
-	.samplePhoto3 {
-		width: 863px;
-		height: 593px;
-		margin-top: 85px;
-	}
-	.techskills {
-		width: 40px;
-		height: 40px;
-		margin: 10px;
-	}
-	.techskillslong {
-		width: 110px;
-		height: 40px;
-		margin: 10px;
-	}
-	
+@media only screen and (min-width: 840px) {
+  .samplePhoto {
+    width: 870px;
+    height: 480px;
+  }
+  .samplePhoto2 {
+    width: 863px;
+    height: 593px;
+    margin-top: 85px;
+  }
+  .samplePhoto3 {
+    width: 863px;
+    height: 593px;
+    margin-top: 85px;
+  }
+  .techskills {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  .techskillslong {
+    width: 110px;
+    height: 40px;
+    margin: 10px;
+  }
 }
-@media only screen and ( min-width: 1125px ){
-	.proj {
-		flex-direction: row;
-		text-align: center;
-		align-items: center;
-		background-color: white;
-		padding: 5px;
-		margin-bottom: 80px;
-		border-radius: 5px;
-		width: 1200px;
-		height: 485px;
-	}
-	
+@media only screen and (min-width: 1125px) {
+  .proj {
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    width: 1200px;
+    height: 485px;
+  }
 }
-
-
