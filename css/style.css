@@ -169,6 +169,7 @@ footer {
 .detail {
   font-size: 13px;
   color: darkgray;
+  padding: 10px;
 }
 .meisam {
   width: 180px;
@@ -260,6 +261,10 @@ form {
   .scroll {
     flex-direction: row;
     height: 120px;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
   }
   .skillSize {
     font-size: 40px;
