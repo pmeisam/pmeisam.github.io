@@ -51,7 +51,6 @@
   </head>
 
   <body id="home">
-    <!-- <div id="branding" class="brand"> -->
     <nav class="navbar navbar-expand-lg bg-light brand">
       <div style="display: flex; flex-direction: column;">
         <a class="navbar-brand" href="#home">
@@ -106,8 +105,6 @@
     </header>
     <div id="projects" style="height: 40px;"></div>
     <main class="projects">
-      
-
       <div class="proj">
         <img class="samplePhoto" src="images/memesagram.png" />
         <div>
@@ -208,32 +205,57 @@
         </div>
       </div>
     </main>
-    <div id="skills" style="height: 80px;"></div>
-    <div style="padding: 20px; text-align: center;">
+    <div id="skills" style="height: 80px"></div>
+    <div class="skillsList" style="padding: 20px; text-align: center;">
+      <h5>Skills</h5>
       <i class="devicon-nodejs-plain colored skillSize"></i>
+      <span class="skillSearch">nodejs</span>
       <i class="devicon-express-original colored skillSize"></i>
+      <span class="skillSearch">express</span>
       <i class="devicon-mongodb-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">MongoDB</span>
       <i class="devicon-angularjs-plain colored skillSize"></i>
+      <span class="skillSearch">Angular</span>
       <i class="devicon-react-original-wordmark colored skillSize"></i>
+      <span class="skillSearch">React</span>
       <i class="devicon-python-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">Python</span>
       <i class="devicon-django-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">Django</span>
       <i class="devicon-postgresql-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">PostgreSQL</span>
       <i class="devicon-typescript-plain colored skillSize"></i>
+      <span class="skillSearch">Typescript</span>
       <i class="devicon-javascript-plain colored skillSize"></i>
+      <span class="skillSearch">JavaScript</span>
       <i class="devicon-jquery-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">jquery</span>
       <i class="devicon-c-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">C</span>
       <i class="devicon-cplusplus-plain colored skillSize"></i>
+      <span class="skillSearch">Cplusplus</span>
       <i class="devicon-github-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">github</span>
       <i class="devicon-git-plain colored skillSize"></i>
+      <span class="skillSearch">git</span>
       <i class="devicon-heroku-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">heroku</span>
       <i class="devicon-html5-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">HTML5</span>
       <i class="devicon-css3-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">CSS</span>
       <i class="devicon-amazonwebservices-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">Amazon Web Service</span>
       <i class="devicon-bootstrap-plain-wordmark colored skillSize"></i>
+      <span class="skillSearch">Bootstrap</span>
+
       <!-- <h1>Technical skills</h1> -->
       <!-- <img class="techskillslong" src="images/techsLogos/mongodb1.png" />
-      <img class="techskillslong" src="images/techsLogos/mongoose1.png" />
-      <img class="techskillslong" src="images/techsLogos/Expressjs1.png" />
+        <img class="techskillslong" src="images/techsLogos/Expressjs1.png" />
+        <img class="techskillslong" src="images/techsLogos/mongoose1.png" />
+        <img class="techskillslong" src="images/techsLogos/ajax1.png" />
+        <img class="techskillslong" src="images/techsLogos/socketio.png" />
+        <img class="techskills" src="images/techsLogos/materialize.png" />
       <img class="techskillslong" src="images/techsLogos/react1.png" />
       <img class="techskills" src="images/techsLogos/node1.png" />
       <img class="techskillslong" src="images/techsLogos/angular1.png" />
@@ -244,15 +266,12 @@
       <img class="techskills" src="images/techsLogos/css1.png" />
       <img class="techskills" src="images/techsLogos/js1.png" />
       <img class="techskills" src="images/techsLogos/jquery1.png" />
-      <img class="techskillslong" src="images/techsLogos/ajax1.png" />
       <img class="techskillslong" src="images/techsLogos/bootstrap1.png" />
-      <img class="techskills" src="images/techsLogos/materialize.png" />
       <img class="techskills" src="images/techsLogos/ejs.png" />
       <img class="techskills" src="images/techsLogos/c1.png" />
       <img class="techskills" src="images/techsLogos/cpp1.png" />
       <img class="techskills" src="images/techsLogos/terminal.png" />
       <img class="techskills" src="images/techsLogos/oauth.png" />
-      <img class="techskillslong" src="images/techsLogos/socketio.png" />
       <img class="techskillslong" src="images/techsLogos/json1.png" />
       <img class="techskillslong" src="images/techsLogos/aws1.png" />
       <img class="techskills" src="images/techsLogos/api.png" />
@@ -260,51 +279,53 @@
       <img class="techskillslong" src="images/techsLogos/git1.png" /> -->
     </div>
     <div id="contact" style="height: 100px;"></div>
-    <form action="mailto:info@meisam.org" method="post" enctype="text/plain">
-      <input type="text" class="form-control" name="name" placeholder="Name" />
-      <input
-        type="text"
-        class="form-control"
-        name="email"
-        placeholder="Email"
-      />
-      <input
-        type="text"
-        class="form-control"
-        name="phone"
-        placeholder="Phone"
-      />
-      <textarea
-        name="message"
-        class="form-control"
-        cols="30"
-        rows="3"
-        placeholder="Message"
-      ></textarea>
-      <input type="submit" class="btn btn-outline-danger" value="Send" />
-    </form>
+
     <section class="secondfooter contactmeisam">
+      <!-- <form action="mailto:info@meisam.org" method="post" enctype="text/plain">
+          <input type="text" class="form-control" name="name" placeholder="Name" />
+          <input
+            type="text"
+            class="form-control"
+            name="email"
+            placeholder="Email"
+          />
+          <input
+            type="text"
+            class="form-control"
+            name="phone"
+            placeholder="Phone"
+          />
+          <textarea
+            name="message"
+            class="form-control"
+            cols="30"
+            rows="3"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" class="btn btn-outline-danger" value="Send" />
+        </form> -->
+
       <img class="meisam" src="images/meisam1.jpg" />
       <div class="myinfo">
-        <h3>Meisam Poorzand</h3>
+        <h5>Meisam Poorzand</h5>
         <p>
           <a class="myemail" href="mailto:info@meisam.org">info@meisam.org</a>
         </p>
         <p>Los Angeles, CA</p>
-        <div class="social">
-          <a href="https://github.com/pmeisam"
-            ><img class="socialmedia" src="images/github.png"
-          /></a>
-          <a href="https://www.facebook.com/pmeisam"
-            ><img class="socialmedia" src="images/facebook.png"
-          /></a>
-          <a href="https://www.linkedin.com/in/pmeisam"
-            ><img class="socialmedia" src="images/linkedin.png"
-          /></a>
-          <a href="mailto: info@meisam.org"
-            ><img class="socialmedia" src="images/email.png"
-          /></a>
-        </div>
+      </div>
+      <div class="social">
+        <a href="https://github.com/pmeisam"
+          ><img class="socialmedia" src="images/github.png"
+        /></a>
+        <a href="https://www.facebook.com/pmeisam"
+          ><img class="socialmedia" src="images/facebook.png"
+        /></a>
+        <a href="https://www.linkedin.com/in/pmeisam"
+          ><img class="socialmedia" src="images/linkedin.png"
+        /></a>
+        <a href="mailto: info@meisam.org"
+          ><img class="socialmedia" src="images/email.png"
+        /></a>
       </div>
     </section>
 
