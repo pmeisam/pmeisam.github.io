@@ -343,6 +343,6 @@ form {
     margin-bottom: 80px;
     border-radius: 5px;
     width: 1200px;
-    height: 485px;
+    min-height: 485px;
   }
 }
