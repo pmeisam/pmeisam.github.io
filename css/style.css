@@ -87,7 +87,7 @@ a {
   width: 80%;
 }
 .skillSize {
-  font-size: 30px;
+  font-size: 70px;
   margin: 5px;
 }
 .aboutbtn {
@@ -124,9 +124,15 @@ footer {
 }
 .skillsList {
   background-color: white;
-  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: initial;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
   margin-bottom: 150px;
-  width: 90vw;
+  width: 100vw;
   margin: 150px auto;
 }
 .social {
@@ -153,12 +159,12 @@ footer {
   margin: 0 10px;
 }
 .socialmedia {
-  width: 30px;
-  height: 30px;
+  font-size: 30px;
   margin: 5px 0;
 }
 .socialmedia:hover {
   transform: rotate(360deg);
+  color: black;
   transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -ms-transition: all 0.3s ease-in-out 0s;
@@ -170,13 +176,14 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   text-align: left;
   background-color: #f04;
   color: black;
-  clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
-  -ms-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
-  -moz-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 22%, 100% 85%, 14% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 22%, 100% 85%, 14% 100%);
+  -ms-clip-path: polygon(0 0, 100% 22%, 100% 85%, 14% 100%);
+  -moz-clip-path: polygon(0 0, 100% 22%, 100% 85%, 14% 100%);
   height: 320px;
   margin-bottom: 3px;
 }
@@ -279,8 +286,9 @@ form {
     margin: 0 auto;
   }
   .skillSize {
-    font-size: 40px;
+    font-size: 70px;
     margin: 10px;
+    top: 10px;
   }
   h1 {
     font-size: 40px;
